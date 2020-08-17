@@ -5,7 +5,7 @@ $(function() {
     let btn = $(".proceed_btn");
     let title = $(".section1_h1 span");
     let author = $(".section2_h2");
-
+    
     $(btn).hide();
 
     setTimeout(function(){
@@ -23,12 +23,11 @@ $(function() {
 
     $(btn)
     .on("click", function(){
-        console.log("clicked");
         $(author).addClass('authorAnimation');
         $(title).addClass('showAnimation');
         $(btn).hide();
     });
-    
+   
 
     $(title)
     .on("mouseover", function(){
@@ -37,5 +36,7 @@ $(function() {
     .on("mouseout", function(){
         $(this).css("text-shadow","none");
     });
+
+
 });
 
