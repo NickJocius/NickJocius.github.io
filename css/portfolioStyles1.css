@@ -4,20 +4,22 @@
 html, body {
     height: 100%;
     min-width: 100%;
+    max-width: 100%;
 }
 .section1 {
     flex-wrap: wrap;
 }
-.section2_h2 {
+
+.section2_h2, .section2_h22, .section2_h23 {
     color:transparent;
-    font-size: 3vw;
+    font-size: 10vw;
     font-family: 'Lobster',cursive;
 }
 
 .section1_h1 span {
     display: table-cell;
     font-family: 'Red Rose',cursive;
-    font-size: 6vw;
+    font-size: 11vw;
     color:black;
     transition: .5s all ease-in-out;
 
@@ -99,8 +101,16 @@ button {
     background: white;
 }
 
-.authorAnimation {
-    animation: author 5.0s ease-in-out 8s alternate;
+.flashAnimation {
+    animation: flash 6.0s ease-in-out 8s alternate;
+}
+
+.flashAnimation2 {
+    animation: flash 6.0s ease-in 9s alternate;
+}
+
+.flashAnimation3 {
+    animation: flash 6.0s ease-in 10s alternate;
 }
 
 .showAnimation {
@@ -121,7 +131,7 @@ button {
     }
 }
 
-@keyframes author {
+@keyframes flash {
     0% {text-shadow: none;}
     25% {text-shadow: none;}
     50% {text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 5px #0073e6;}
@@ -140,4 +150,6 @@ button {
       box-shadow: 0 0 15px #0073e6;
     }
   }
+
+/* Media queries */
 

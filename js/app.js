@@ -4,7 +4,9 @@ $(function() {
     
     let btn = $(".proceed_btn");
     let title = $(".section1_h1 span");
-    let author = $(".section2_h2");
+    let flash1 = $(".section2_h2");
+    let flash2 = $(".section2_h22");
+    let flash3 = $(".section2_h23");
     
     $(btn).hide();
 
@@ -23,7 +25,9 @@ $(function() {
 
     $(btn)
     .on("click", function(){
-        $(author).addClass('authorAnimation');
+        $(flash1).addClass('flashAnimation');
+        $(flash2).addClass('flashAnimation2');
+        $(flash3).addClass('flashAnimation3');
         $(title).addClass('showAnimation');
         $(btn).hide();
     });
