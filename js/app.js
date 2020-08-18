@@ -41,6 +41,15 @@ $(function() {
         $(this).css("text-shadow","none");
     });
 
+    // mobile mouse events for title
+    $(document)
+    .on("mouseover", "span", function(){
+        $(this).css("text-shadow", "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6")
+    })
+    .on("mouseout", "span", function(){
+        $(this).css("text-shadow","none");
+    });
+
 
 });
 
