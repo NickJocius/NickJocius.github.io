@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* Validation styles */
+input:not([type="radio"]):focus:valid {
+	background-color: rgb(215,255,215);
+	background-image: url("../images/valid.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* Form layouts */
+body {
+	background: url("../images/brush.jpg") center / 100% 60% fixed no-repeat, url("../images/paint1.jpg") bottom / 100% 50% fixed no-repeat ;
+}
+
+#contactMe {
+	height: 100%;
+	width: 100%;
+}
+
+#name1 {
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5em;
+	width: 50%;
+	margin: 15px auto;
+	box-shadow: 3px 0px 10px #999, 5px 0px 20px #000, -5px 0px  20px #000;
+	border: 2px solid #000;
+	background-color: rgba(203,255,158,.26);
+}
+legend {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+input:not([type="radio"]), #name1 label {
+	width: 100%;
+	margin: 2px 2px;
+	padding: 5px;
+	float: left;
+	clear: both;
+	box-sizing: border-box;
+	content: '';
+	display: table;
+}
+
+#name2 {
+	display: block;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin: 15px auto;
+	width: 50%;
+	box-shadow: 3px 0px 10px #999, 5px 0px 20px #000, -5px 0px  20px #000;
+	border: 2px solid #000;
+	background-color: rgba(203,255,158,.26);
+}
+textarea {
+	float: right;
+	clear: both;
+	content: '';
+	width: 40%;
+	height: 100px;
+	margin: 2px 2px;
+	padding: 5px;
+}
+
+button[type="submit"] {
+	margin: 2px auto;
+	border-radius: 50%;
+	display: block;
+	max-width: 100%;
+	border: 1px solid #000;
+	-webkit-animation-timing-fuction: ease-in;
+	-webkit-animation: slide 2s linear 1 normal;
+	animation: slide 2s linear 1 normal;
+}
+
+@keyframes slide {
+
+	from {margin-left: 100%;}
+	to {margin-left: 45%;}
+
+}
+
+@media only screen and (max-width: 390px;) {
+	html {
+		font-size: .9em;
+	}
+
+	legend {
+		display: none;
+	}
+}
