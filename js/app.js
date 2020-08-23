@@ -15,7 +15,7 @@ $(function() {
         $(btn).show('slow');
         $(btn).removeClass('shadow-none');
         $(btn).addClass('glowing');
-    }, 10000);
+    }, 2000);
 
     $(btn).on("mouseover", function(){
         $(this).css("transform", "rotate(5deg)");
