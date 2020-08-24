@@ -1,0 +1,17 @@
+# this .gitignore file uses the "ignore everything first" style
+
+# first ignore everything by using the * wildcard
+*
+
+# then unignore what you want to track. the ! (called "bang") means "not"
+!images/
+!.gitignore
+!*.html
+!*.jpg
+!*.png
+!*.PNG
+!*.gif
+!*.ico
+!*.md
+!*.css
+!*.js

@@ -43,8 +43,11 @@ body {
     background-color: white;
 }
 
-.breakpoint {
-    height: 20vh;
-    background-color: white;
+#web2019 {
+    position: relative;
+    padding-top: 56.25%;
 }
 
+.carousel-item img {
+    height: 60vh;
+}
