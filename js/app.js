@@ -30,7 +30,7 @@ $(function() {
         $(flash2).addClass('flashAnimation2');
         $(flash3).addClass('flashAnimation3');
         $(title).addClass('showAnimation');
-        $(btn).hide();
+        $(btn).css("visibility", "hidden");
     });
    
 

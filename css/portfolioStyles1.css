@@ -5,7 +5,8 @@ html, body {
     height: 100%;
     min-width: 100%;
     max-width: 100%;
-    overflow: hidden;
+    background-color:black;
+    overflow: visible;
 }
 .section1 {
     flex-wrap: wrap;
@@ -13,14 +14,14 @@ html, body {
 
 .section2_h2, .section2_h22, .section2_h23 {
     color:transparent;
-    font-size: 10vw;
+    font-size: 9vw;
     font-family: 'Lobster',cursive;
 }
 
 .section1_h1 span {
     display: table-cell;
     font-family: 'Red Rose',cursive;
-    font-size: 11vw;
+    font-size: 10vw;
     color:black;
     transition: .5s all ease-in-out;
 
@@ -103,15 +104,15 @@ button {
 }
 
 .flashAnimation {
-    animation: flash 6.0s ease-in-out 8s alternate;
+    animation: flash 6.0s ease-in-out 7s alternate;
 }
 
 .flashAnimation2 {
-    animation: flash 6.0s ease-in 9s alternate;
+    animation: flash 6.0s ease-in 8s alternate;
 }
 
 .flashAnimation3 {
-    animation: flash 6.0s ease-in 10s alternate;
+    animation: flash 6.0s ease-in 9s alternate;
 }
 
 .showAnimation {
