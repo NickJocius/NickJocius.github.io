@@ -8,11 +8,11 @@ $(function() {
     let flash2 = $(".section2_h22");
     let flash3 = $(".section2_h23");
     
-    $(btn).hide();
+    $(btn).css("visibility", "hidden");
 
     
     setTimeout(function(){
-        $(btn).show('slow');
+        $(btn).css("visibility", "visible");
         $(btn).removeClass('shadow-none');
         $(btn).addClass('glowing');
     }, 2000);

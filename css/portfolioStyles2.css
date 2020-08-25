@@ -11,12 +11,13 @@ body {
     max-width: 100%;
     min-width: 360px;
     background-color:white;
+    overflow:auto;
 }
 
 .home_header {
     background-image: url("../images/keyboard.jpg");
     background-size: 25vw;
-
+  
 }
 
 .header_h1 {
