@@ -39,14 +39,16 @@
 /*-------------------------------------------------------------------------------
   1. Global
 -------------------------------------------------------------------------------*/
-:root {
-  --primary-purple: #b755dd;
-}
+
 /* 1.1 General */
 
 @import url("bootstrap.min.css");
 @import url("magnific-popup.css");
 @import url("owl.carousel.min.css");
+
+:root {
+  --primary-purple: #b755dd;
+}
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -71,17 +73,17 @@ body {
 }
 
 ::selection {
-  background-color: #b755dd;
+  background-color: var(--primary-purple);
   color: #000;
 }
 
 -webkit-::selection {
-  background-color: #b755dd;
+  background-color: var(--primary-purple);
   color: #000;
 }
 
 ::-moz-selection {
-  background-color: #b755dd;
+  background-color: var(--primary-purple);
   color: #000;
 }
 
@@ -190,7 +192,7 @@ ul {
 }
 
 a {
-  color: #b755dd;
+  color: var(--primary-purple);
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
@@ -198,7 +200,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #b755dd;
+  color: var(--primary-purple);
   outline: none;
 }
 
@@ -498,10 +500,13 @@ ion-icon {
 }
 
 .text-primary {
-  color: #611857 !important;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.979), 0 0 10px #fff, 0 0 21px #fff,
-    0 0 42px #f09, 0 0 55px rgb(255, 0, 255), 0 0 65px rgb(195, 0, 255),
-    0 0 75px rgb(204, 0, 255), 0 0 95px #611857;
+  color: var(--primary-purple) !important;
+}
+
+.home-primary {
+  text-shadow: 0 0 1px rgba(2, 2, 2, 0.979), 0 0 10px #fff, 0 0 21px #fff,
+    0 0 55px rgb(255, 0, 255), 0 0 65px rgb(195, 0, 255),
+    0 0 75px rgb(204, 0, 255);
 }
 
 /*-------------------------------------------------------------------------------
