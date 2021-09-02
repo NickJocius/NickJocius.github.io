@@ -32,7 +32,7 @@
             scrollingSpeed: 280,
             navigation:false,
             menu: '.navbar-nav',
-            anchors: ['home', 'about', 'experience', 'skills', 'projects', 'partners', 'testimonials', 'news', 'contact'],
+            anchors: ['home', 'about', 'experience', 'skills', 'projects', 'partners', 'news', 'contact'],
             afterRender: function(anchorLink, index){ 
               NavbarColor();
 
@@ -114,28 +114,5 @@
 	    dots:false,
 	    items:1
 	});
-
-    /* Send form */
-	if ($('.js-ajax-form').length) {
-		$('.js-ajax-form').each(function(){
-			$(this).validate({
-				errorClass: 'error',
-			    submitHandler: function(form){
-		        	$.ajax({
-			            type: "POST",
-			            url:"mail.php",
-			            data: $(form).serialize(),
-			            success: function() {
-		                	$('#success-message').show();
-		                },
-
-		                error: function(){
-		                	$('#error-message').show();
-			            }
-			        });
-			    }
-			});
-		});
-	}
 
 })(jQuery);
