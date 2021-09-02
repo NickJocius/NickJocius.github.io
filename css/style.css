@@ -31,7 +31,7 @@
       3.5 SKills
       3.6 Projects
       3.7 Partners
-      3.8 Testimonials
+      3.8 News
       3.9 Contact
 
 
@@ -543,6 +543,7 @@ ion-icon {
   padding: 0;
   background: none;
   border: 0;
+  top: 5px;
 }
 
 .toggler:focus {
