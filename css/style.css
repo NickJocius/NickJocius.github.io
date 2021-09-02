@@ -1068,7 +1068,7 @@ h1 + .line {
   font-size: 10rem;
   line-height: 1;
   font-family: "Karla", sans-serif;
-  color: #d4f21b;
+  color: var(--primary-purple);
 }
 
 .experience-text {
