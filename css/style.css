@@ -1471,6 +1471,20 @@ ion-icon {
   background-color: rgba(255, 255, 255, 0.849);
 }
 
+#news .blog-cont {
+  border: 1px solid rgba(104, 9, 171, 1);
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.334);
+  border-radius: 15px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  min-height: 100%;
+}
+
+.blog-cont h4 {
+  color: white;
+}
+
 /* 3.9 Contact */
 
 .message {
